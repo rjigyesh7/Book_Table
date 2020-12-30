@@ -30,7 +30,7 @@ public class BookController {
 	public List<Book> getBooks(){
 		return repository.findAll();
 	}
-	@GetMapping("/findAllBooks/{id}")
+	@GetMapping("/getBook/{id}")
 	public Optional<Book> getBook(@PathVariable int id){
 		return repository.findById(id);
 	}
