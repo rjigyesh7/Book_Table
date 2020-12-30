@@ -17,4 +17,8 @@ public class Book {
 	private int id;
 	private String bookName;
 	private String authorName;
+	public String getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
